@@ -4,7 +4,7 @@ Description=Start mongodb
 [Service]
 User=ubuntu
 WorkingDirectory=/home/ubuntu
-ExecStart=/usr/bin/mongod --quiet --auth --config /etc/mongod.conf
+ExecStart=/usr/bin/mongod --config /etc/mongod.conf
 Restart=always
 
 [Install]
