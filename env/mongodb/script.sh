@@ -30,7 +30,7 @@ echo --------------- Remove Exsiting Conf File ------------------
  sudo rm /etc/mongod.conf
 
  echo ---------------------- Copy New Conf File ------------------
- sudo ln -s /home/ubuntu/env/mongodb/mongod.conf /etc/mongod.conf
+ sudo ln -s /home/ubuntu/env/mongodb/mongod.conf /etc/
 
   echo ---------------------- Restart Service ------------------
 sudo systemctl daemon-reload
