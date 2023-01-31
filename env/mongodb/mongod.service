@@ -1,0 +1,11 @@
+[Unit]
+Description=Start mongodb 
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/usr/bin/mongod --config /etc/mongod.conf
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
