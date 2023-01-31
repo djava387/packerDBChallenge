@@ -39,7 +39,7 @@ sudo systemctl daemon-reload
 echo ------------------------- Start Mongo ----------------------
 sudo systemctl start mongod
 
-echo ------------------Enable Mongod---------------
+echo ------------------Enable Mongod--------------
 sudo systemctl enable mongod
 
 echo ------------------------- Get Mongo Status -----------------
