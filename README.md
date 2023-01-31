@@ -4,11 +4,7 @@ Create a Packer file that creates an AMI that is provisioned for MongoDB. Run mo
 
 ## Demo
 
-<<<<<<< HEAD
 ![](packer-aws.gif)
-=======
-![](aws-packer.gif)
->>>>>>> 06a86cdd7e0739e794db14634841e4cf1805a1ae
 
 ## Notes
 
@@ -28,8 +24,6 @@ Create a Packer file that creates an AMI that is provisioned for MongoDB. Run mo
   ]
 ```
 
-<<<<<<< HEAD
-=======
 ### Added mongod.service
 
 ```
@@ -46,7 +40,6 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
->>>>>>> 06a86cdd7e0739e794db14634841e4cf1805a1ae
 ### Fixed installation error for MongoDB. Changed list file to:
 
 ```
