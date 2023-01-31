@@ -24,22 +24,6 @@ Create a Packer file that creates an AMI that is provisioned for MongoDB. Run mo
   ]
 ```
 
-### Added mongod.service
-
-```
-[Unit]
-Description=Start mongodb
-
-[Service]
-User=ubuntu
-WorkingDirectory=/home/ubuntu
-ExecStart=/usr/bin/mongod --config /etc/mongod.conf
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-```
-
 ### Fixed installation error for MongoDB. Changed list file to:
 
 ```
